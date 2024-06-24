@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <style>
+            h1 {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                text-align: center;
+                color: darkblue;
+            }
+
+            h2 {
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                text-align: center;
+                border-radius: 7px;
+                border: 2px solid palevioletred;
+                padding: 10px;
+                color: palevioletred;
+            }
+
+            p {
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 14px;
+                line-height: 1.5;
+            }
+
+            img {
+                padding-left: 50%;
+            }
+
+            button {
+                width: 100%;
+                background: black;
+                color: #FAD500;
+                border: none;
+                padding: 15px;
+                font-size: 20px;
+                border-radius: 15px;
+                margin: 20px 0;
+            }
+
+            footer {
+                font-size: 12px;
+                color: midnightblue;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1> 
+        Having a play coding 
+        </h1>
+        <img 
+            src="https://static.vecteezy.com/system/resources/previews/008/845/369/original/funny-cartoon-character-banana-character-with-gloved-hands-png.png"
+            alt="Fun banana"
+            width="350"
+            />
+        <br />
+        <h2>What a happy banana! And I like this pink, it's called 'palevioletred'</h2>
+        <br />
+        <p>
+            Hello World! (that's a thing right?). I've done basic coding in the past, but really only modifying code to fix issues or to make things prettier, oh and I did commence and fail Java at Uni. 
+        <br />
+        <br />
+            So, I did an online course (well, I watched a 1hr online video introducing coding and coding tools - via SheCodes). Then I got myself Visual Studio and signed up to Github, and here we are! 
+        <br />
+        <br />
+            I built this page with HTML, CSS and Javascript.
+        <br />
+        <br />
+            I'm still having trouble centering the banana! (and yes I'm using american spelling for center). Might just left pad it a little... nice.
+        <br />
+        <br />
+        </p>
+        <button>
+            Go on click this button!
+        </button>
+        <br>
+        <footer>
+        Coded by Amber 🎨
+        </footer>
+
+        <script>
+        function subscribe() {
+            let name = prompt("Type your name and I will show you something"); 
+            prompt("High five 🖐️ And what's your favourite colour?");
+
+            alert(
+                `Nice name, ${name}! (see I remembered it, but I have forgotten your fave colour, soz!), have a nice day! 🌻`
+            );
+        }
+
+        let button = document.querySelector("button");
+        button.addEventListener("click", subscribe);
+        </script> 
+    </body>
+</html>
